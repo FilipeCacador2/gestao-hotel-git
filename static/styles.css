@@ -1,0 +1,129 @@
+/* static/style.css */
+
+/* Modern, clean design with Toast Yellow accent */
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f5f5f5;
+color: #333;
+}
+
+nav {
+background-color: #fff;
+padding: 1rem 2rem;
+display: flex;
+gap: 1rem;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: color 0.2s;
+}
+
+nav a:hover {
+color: #FFC107; /* Toast Yellow accent */
+}
+
+.container {
+max-width: 900px;
+margin: 2rem auto;
+padding: 1rem;
+background-color: #fff;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+color: #333;
+margin-bottom: 1rem;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin-bottom: 1.5rem;
+}
+
+ul li {
+padding: 0.75rem 1rem;
+margin-bottom: 0.5rem;
+background-color: #fdfdfd;
+border-left: 5px solid #FFC107; /* Toast Yellow */
+border-radius: 6px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: background-color 0.2s;
+}
+
+ul li:hover {
+background-color: #fff8e1;
+}
+
+form {
+display: flex;
+flex-wrap: wrap;
+gap: 0.75rem;
+margin-bottom: 1.5rem;
+}
+
+form input, form select {
+flex: 1 1 200px;
+padding: 0.5rem 0.75rem;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 1rem;
+}
+
+button {
+background-color: #FFC107;
+border: none;
+padding: 0.5rem 1rem;
+border-radius: 6px;
+font-size: 1rem;
+font-weight: 600;
+color: #333;
+cursor: pointer;
+transition: background-color 0.2s;
+}
+
+button:hover {
+background-color: #ffca28;
+}
+
+a {
+color: #FFC107;
+text-decoration: none;
+font-weight: 500;
+transition: color 0.2s;
+}
+
+a:hover {
+color: #ffca28;
+}
+
+/* Table styling if needed */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 1.5rem;
+}
+
+table th, table td {
+padding: 0.75rem 1rem;
+border-bottom: 1px solid #eee;
+text-align: left;
+}
+
+table th {
+background-color: #fff8e1;
+color: #333;
+}
+
+table tr:hover {
+background-color: #fffbe6;
+}
