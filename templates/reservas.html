@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Reservas</h2>
+<ul>
+  {% for r in reservas %}<li>{{ r.id }} - Cliente {{ r.cliente_id }} - Quarto {{ r.quarto_numero }} ({{ r.checkin }} a {{ r.checkout }}) <a href="/reservas/del/{{ r.id }}">Cancelar</a></li>{% endfor %}
+</ul>
+<form method="post" action="/reservas/add">
+  <select name="cliente_id" required>
+    {% for c in clientes %}<option value="{{ c.id }}">{{ c.nome }}</option>{% endfor %}
+  </select>
+  <select name="quarto_numero" required>
+    {% for q in quartos %}<option value="{{ q.numero }}">{{ q.numero }} - {{ q.tipo }}</option>{% endfor %}
+  </select>
+  <input type="date" name="checkin" required>
+  <input type="date" name="checkout" required>
+  <button>Criar</button>
+</form>
+{% endblock %}
