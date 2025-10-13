@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Clientes</h2>
+<ul>
+  {% for c in clientes %}<li>{{ c.id }} - {{ c.nome }} - {{ c.telefone }} <a href="/clientes/del/{{ c.id }}">Remover</a></li>{% endfor %}
+</ul>
+<form method="post" action="/clientes/add">
+    <input name="nome" placeholder="Nome" required>
+    <input name="telefone" placeholder="Telefone">
+    <input name="email" placeholder="Email">
+    <button>Adicionar</button>
+</form>
+{% endblock %}
