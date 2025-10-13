@@ -1,0 +1,39 @@
+commit 06c0543e1f809cb069c88c18af3c103886b282f3 (HEAD -> reservas, origin/reservas)
+Author: Filipe Caçador <filipecacador@outlook.com>
+Date:   Mon Oct 13 15:15:28 2025 +0100
+
+    Criação de função Reservas
+
+
+commit 00df65da54196532eceefc9473826a4408a06196 (origin/quartos, quartos)
+Author: Filipe Caçador <filipecacador@outlook.com>
+Date:   Mon Oct 13 14:50:57 2025 +0100
+
+    Criação de função Quartos
+
+
+commit 3ec84e2e1dabc23991d1cdb86c1a0aeae89c78f9 (origin/clientes, clientes)
+Author: Filipe Caçador <filipecacador@outlook.com>
+Date:   Mon Oct 13 14:16:07 2025 +0100
+
+    Criação de função Clientes
+
+
+commit 97e409a6e2b4ec9b8b3f5a99b6b9bd220b1b2ff4 (origin/main, main)
+Author: Filipe Caçador <filipecacador@outlook.com>
+Date:   Mon Oct 13 12:12:50 2025 +0100
+
+    Criação de APP.PY e Index
+
+commit 24e0bb91d25057ec698946c14254325be785a5ca
+Author: Filipe Caçador <filipecacador@outlook.com>
+Date:   Mon Oct 13 11:49:03 2025 +0100
+
+    Criação de ficheiros adicionais
+
+commit ad5c4ab1aa0ed0dd5e008340b601882e8552b463
+Author: Filipe Caçador <filipecacador@outlook.com>
+Date:   Mon Oct 13 10:49:39 2025 +0100
+
+    Initial commit
+
