@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Quartos</h2>
+<ul>
+  {% for q in quartos %}<li>{{ q.numero }} - {{ q.tipo }} - €{{ q.preco_noite }} <a href="/quartos/del/{{ q.numero }}">Remover</a></li>{% endfor %}
+</ul>
+<form method="post" action="/quartos/add">
+    <input name="numero" placeholder="Número" required type="number">
+    <input name="tipo" placeholder="Tipo" required>
+    <input name="preco" placeholder="Preço/noite" type="number" step="0.01" required>
+  <button>Adicionar</button>
+</form>
+{% endblock %}
